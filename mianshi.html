@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+// function chainStore() 
+// { 
+// var store1='Nike China'; 
+// var store2=store1; 
+// store1='Nike U.S.A.'; 
+// alert(store2); //Nike China 
+// } 
+// chainStore(); 
+
+
+function chainStore() { 
+var store1=['Nike China']; 
+var store2=store1; 
+alert(store2[0]); //Nike China 
+store1[0]='Nike U.S.A.'; 
+alert(store2[0]); //Nike U.S.A. 
+} 
+chainStore();
+</script>
+</html>
